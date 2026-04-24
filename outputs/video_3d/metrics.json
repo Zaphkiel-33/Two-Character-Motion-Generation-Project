@@ -1,0 +1,35 @@
+{
+  "fps": 30.0,
+  "roles": {
+    "character_A": {
+      "valid_frames": 987,
+      "valid_ratio": 1.0,
+      "left_foot_contact_frames": 2,
+      "right_foot_contact_frames": 0,
+      "mean_bone_length_error_m": 0.0037051658146083355,
+      "mean_root_speed_mps": 1.6887333393096924,
+      "left_foot_sliding_mean_mps": 0.1426517367362976,
+      "left_foot_sliding_max_mps": 0.1451587677001953,
+      "right_foot_sliding_mean_mps": 0.0,
+      "right_foot_sliding_max_mps": 0.0
+    },
+    "character_B": {
+      "valid_frames": 987,
+      "valid_ratio": 1.0,
+      "left_foot_contact_frames": 2,
+      "right_foot_contact_frames": 0,
+      "mean_bone_length_error_m": 0.004834702704101801,
+      "mean_root_speed_mps": 1.3082829713821411,
+      "left_foot_sliding_mean_mps": 0.23663407564163208,
+      "left_foot_sliding_max_mps": 0.24015618860721588,
+      "right_foot_sliding_mean_mps": 0.0,
+      "right_foot_sliding_max_mps": 0.0
+    }
+  },
+  "contacts": {
+    "hand_hand_count": 185,
+    "hand_body_count": 123,
+    "collision_correction_count": 88,
+    "foot_lock_correction_count": 0
+  }
+}

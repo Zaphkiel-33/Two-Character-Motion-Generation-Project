@@ -1,0 +1,19 @@
+{
+  "clip_index": 4,
+  "name": "05_transition",
+  "start_frame": 623,
+  "end_frame": 814,
+  "duration_frames": 191,
+  "duration_seconds": 6.366666666666666,
+  "dominant_state": "transition",
+  "sync_points": [
+    0,
+    190
+  ],
+  "interaction_summary": {
+    "hand_hand_frames": 0,
+    "hand_body_frames": 0,
+    "interaction_active_frames": 0
+  },
+  "loop_candidate": false
+}

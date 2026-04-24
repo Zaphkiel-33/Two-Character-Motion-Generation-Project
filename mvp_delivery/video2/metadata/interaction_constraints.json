@@ -1,0 +1,289 @@
+{
+  "constraints": [
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.right_wrist",
+      "start_frame": 0,
+      "end_frame": 10,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.right_wrist",
+      "start_frame": 32,
+      "end_frame": 54,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.right_wrist",
+      "start_frame": 75,
+      "end_frame": 90,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.right_wrist",
+      "start_frame": 218,
+      "end_frame": 220,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.right_wrist",
+      "start_frame": 607,
+      "end_frame": 611,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.right_wrist",
+      "start_frame": 619,
+      "end_frame": 623,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.left_wrist",
+      "start_frame": 0,
+      "end_frame": 12,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.left_wrist",
+      "start_frame": 129,
+      "end_frame": 142,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.left_wrist",
+      "start_frame": 233,
+      "end_frame": 265,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.left_wrist",
+      "start_frame": 329,
+      "end_frame": 332,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.left_wrist",
+      "start_frame": 616,
+      "end_frame": 621,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.left_wrist",
+      "start_frame": 926,
+      "end_frame": 933,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.left_wrist",
+      "start_frame": 950,
+      "end_frame": 958,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.right_wrist",
+      "start_frame": 34,
+      "end_frame": 37,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.right_wrist",
+      "start_frame": 76,
+      "end_frame": 87,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.right_wrist",
+      "start_frame": 598,
+      "end_frame": 601,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.right_wrist",
+      "start_frame": 951,
+      "end_frame": 961,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.left_wrist",
+      "start_frame": 35,
+      "end_frame": 54,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.left_wrist",
+      "start_frame": 76,
+      "end_frame": 86,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.left_wrist",
+      "start_frame": 258,
+      "end_frame": 260,
+      "stiffness": 0.8
+    },
+    {
+      "type": "attach",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.left_wrist",
+      "start_frame": 951,
+      "end_frame": 952,
+      "stiffness": 0.8
+    },
+    {
+      "type": "surface_contact",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.body_core",
+      "start_frame": 46,
+      "end_frame": 57,
+      "stiffness": 0.55
+    },
+    {
+      "type": "surface_contact",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.body_core",
+      "start_frame": 81,
+      "end_frame": 82,
+      "stiffness": 0.55
+    },
+    {
+      "type": "surface_contact",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.body_core",
+      "start_frame": 210,
+      "end_frame": 227,
+      "stiffness": 0.55
+    },
+    {
+      "type": "surface_contact",
+      "role": "character_A",
+      "source": "character_A.left_wrist",
+      "target": "character_B.body_core",
+      "start_frame": 600,
+      "end_frame": 623,
+      "stiffness": 0.55
+    },
+    {
+      "type": "surface_contact",
+      "role": "character_B",
+      "source": "character_B.right_wrist",
+      "target": "character_A.body_core",
+      "start_frame": 77,
+      "end_frame": 82,
+      "stiffness": 0.55
+    },
+    {
+      "type": "surface_contact",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.body_core",
+      "start_frame": 205,
+      "end_frame": 217,
+      "stiffness": 0.55
+    },
+    {
+      "type": "surface_contact",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.body_core",
+      "start_frame": 236,
+      "end_frame": 242,
+      "stiffness": 0.55
+    },
+    {
+      "type": "surface_contact",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.body_core",
+      "start_frame": 598,
+      "end_frame": 606,
+      "stiffness": 0.55
+    },
+    {
+      "type": "surface_contact",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.body_core",
+      "start_frame": 931,
+      "end_frame": 937,
+      "stiffness": 0.55
+    },
+    {
+      "type": "surface_contact",
+      "role": "character_A",
+      "source": "character_A.right_wrist",
+      "target": "character_B.body_core",
+      "start_frame": 953,
+      "end_frame": 987,
+      "stiffness": 0.55
+    },
+    {
+      "type": "no_penetration",
+      "source": "character_A.body",
+      "target": "character_B.body",
+      "threshold_m": 0.01
+    }
+  ]
+}

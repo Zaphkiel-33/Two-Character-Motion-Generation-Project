@@ -1,0 +1,112 @@
+{
+  "roles": {
+    "character_A": {
+      "effectors": [
+        {
+          "name": "left_hand",
+          "bone": "left_wrist"
+        },
+        {
+          "name": "right_hand",
+          "bone": "right_wrist"
+        },
+        {
+          "name": "left_foot",
+          "bone": "left_ankle"
+        },
+        {
+          "name": "right_foot",
+          "bone": "right_ankle"
+        }
+      ],
+      "pole_vectors": [
+        {
+          "joint": "left_elbow",
+          "direction": [
+            0.9894090294837952,
+            0.14345599710941315,
+            -0.022133000195026398
+          ]
+        },
+        {
+          "joint": "right_elbow",
+          "direction": [
+            0.977832019329071,
+            -0.18562400341033936,
+            -0.09689699858427048
+          ]
+        },
+        {
+          "joint": "left_knee",
+          "direction": [
+            -0.9839000105857849,
+            -0.010393000207841396,
+            -0.17841799557209015
+          ]
+        },
+        {
+          "joint": "right_knee",
+          "direction": [
+            -0.9962109923362732,
+            -0.07310400158166885,
+            -0.0471160002052784
+          ]
+        }
+      ]
+    },
+    "character_B": {
+      "effectors": [
+        {
+          "name": "left_hand",
+          "bone": "left_wrist"
+        },
+        {
+          "name": "right_hand",
+          "bone": "right_wrist"
+        },
+        {
+          "name": "left_foot",
+          "bone": "left_ankle"
+        },
+        {
+          "name": "right_foot",
+          "bone": "right_ankle"
+        }
+      ],
+      "pole_vectors": [
+        {
+          "joint": "left_elbow",
+          "direction": [
+            0.9677209854125977,
+            0.16817499697208405,
+            -0.1877020001411438
+          ]
+        },
+        {
+          "joint": "right_elbow",
+          "direction": [
+            0.9353860020637512,
+            -0.16445499658584595,
+            0.31306201219558716
+          ]
+        },
+        {
+          "joint": "left_knee",
+          "direction": [
+            -0.906436026096344,
+            -0.1549450010061264,
+            -0.392892986536026
+          ]
+        },
+        {
+          "joint": "right_knee",
+          "direction": [
+            -0.8074889779090881,
+            0.20686200261116028,
+            0.5524219870567322
+          ]
+        }
+      ]
+    }
+  }
+}

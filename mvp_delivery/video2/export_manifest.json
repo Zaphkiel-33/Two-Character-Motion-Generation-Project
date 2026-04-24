@@ -1,0 +1,17 @@
+{
+  "source_motion_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/outputs_improved/video_3d/motion3d_sequences.json",
+  "source_video": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/video2.mp4",
+  "fps": 30.0,
+  "frame_count": 987,
+  "deliverables": {
+    "skeletons": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/skeletons",
+    "clips": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips",
+    "metadata": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/metadata",
+    "full_sequence": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/full_sequence"
+  },
+  "notes": [
+    "BVH clips are the most immediately portable artifact for DCC tools.",
+    "glTF clip scenes use animated transform nodes with simple cube markers and no skinned mesh.",
+    "If Blender is installed later, these BVH clips can be converted to FBX/GLB there."
+  ]
+}

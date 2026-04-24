@@ -1,0 +1,261 @@
+{
+  "role": "character_A",
+  "fps": 30.0,
+  "bone_order": [
+    "root",
+    "pelvis",
+    "spine",
+    "head",
+    "nose",
+    "left_shoulder",
+    "left_elbow",
+    "left_wrist",
+    "right_shoulder",
+    "right_elbow",
+    "right_wrist",
+    "left_hip",
+    "left_knee",
+    "left_ankle",
+    "left_big_toe",
+    "left_small_toe",
+    "left_heel",
+    "right_hip",
+    "right_knee",
+    "right_ankle",
+    "right_big_toe",
+    "right_small_toe",
+    "right_heel"
+  ],
+  "bones": [
+    {
+      "name": "root",
+      "joint_index": null,
+      "parent": null,
+      "rest_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "pelvis",
+      "joint_index": 19,
+      "parent": "root",
+      "rest_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "spine",
+      "joint_index": 18,
+      "parent": "pelvis",
+      "rest_position_m": [
+        -0.006399999838322401,
+        0.5380759835243225,
+        0.0
+      ]
+    },
+    {
+      "name": "head",
+      "joint_index": 17,
+      "parent": "spine",
+      "rest_position_m": [
+        0.00634300010278821,
+        0.7834590077400208,
+        0.0
+      ]
+    },
+    {
+      "name": "nose",
+      "joint_index": 0,
+      "parent": "head",
+      "rest_position_m": [
+        -0.002443999983370304,
+        0.6518380045890808,
+        -0.0026050000451505184
+      ]
+    },
+    {
+      "name": "left_shoulder",
+      "joint_index": 5,
+      "parent": "spine",
+      "rest_position_m": [
+        0.10165700316429138,
+        0.4683080017566681,
+        0.09447100013494492
+      ]
+    },
+    {
+      "name": "left_elbow",
+      "joint_index": 7,
+      "parent": "left_shoulder",
+      "rest_position_m": [
+        0.13328500092029572,
+        0.22871099412441254,
+        -0.044617000967264175
+      ]
+    },
+    {
+      "name": "left_wrist",
+      "joint_index": 9,
+      "parent": "left_elbow",
+      "rest_position_m": [
+        0.14388200640678406,
+        0.12687699496746063,
+        -0.2309419959783554
+      ]
+    },
+    {
+      "name": "right_shoulder",
+      "joint_index": 6,
+      "parent": "spine",
+      "rest_position_m": [
+        -0.12099500000476837,
+        0.4790380001068115,
+        0.10276299715042114
+      ]
+    },
+    {
+      "name": "right_elbow",
+      "joint_index": 8,
+      "parent": "right_shoulder",
+      "rest_position_m": [
+        -0.17564499378204346,
+        0.2324880063533783,
+        0.023578999564051628
+      ]
+    },
+    {
+      "name": "right_wrist",
+      "joint_index": 10,
+      "parent": "right_elbow",
+      "rest_position_m": [
+        -0.21518999338150024,
+        0.11155900359153748,
+        -0.14382900297641754
+      ]
+    },
+    {
+      "name": "left_hip",
+      "joint_index": 11,
+      "parent": "pelvis",
+      "rest_position_m": [
+        0.06449499726295471,
+        -0.018472999334335327,
+        0.10180500149726868
+      ]
+    },
+    {
+      "name": "left_knee",
+      "joint_index": 13,
+      "parent": "left_hip",
+      "rest_position_m": [
+        0.051079001277685165,
+        -0.4233979880809784,
+        0.19937199354171753
+      ]
+    },
+    {
+      "name": "left_ankle",
+      "joint_index": 15,
+      "parent": "left_knee",
+      "rest_position_m": [
+        0.017253000289201736,
+        -0.7812280058860779,
+        0.4067550003528595
+      ]
+    },
+    {
+      "name": "left_big_toe",
+      "joint_index": 20,
+      "parent": "left_ankle",
+      "rest_position_m": [
+        0.008898000232875347,
+        -0.8951159715652466,
+        0.47312799096107483
+      ]
+    },
+    {
+      "name": "left_small_toe",
+      "joint_index": 22,
+      "parent": "left_ankle",
+      "rest_position_m": [
+        0.03711400181055069,
+        -0.8862770199775696,
+        0.4519580006599426
+      ]
+    },
+    {
+      "name": "left_heel",
+      "joint_index": 24,
+      "parent": "left_ankle",
+      "rest_position_m": [
+        0.001512999995611608,
+        -0.8356789946556091,
+        0.44800201058387756
+      ]
+    },
+    {
+      "name": "right_hip",
+      "joint_index": 12,
+      "parent": "pelvis",
+      "rest_position_m": [
+        -0.06081800162792206,
+        -0.01771399937570095,
+        0.28938499093055725
+      ]
+    },
+    {
+      "name": "right_knee",
+      "joint_index": 14,
+      "parent": "right_hip",
+      "rest_position_m": [
+        -0.036320000886917114,
+        -0.4177379906177521,
+        0.3920910060405731
+      ]
+    },
+    {
+      "name": "right_ankle",
+      "joint_index": 16,
+      "parent": "right_knee",
+      "rest_position_m": [
+        -0.020284000784158707,
+        -0.7721459865570068,
+        0.6029059886932373
+      ]
+    },
+    {
+      "name": "right_big_toe",
+      "joint_index": 21,
+      "parent": "right_ankle",
+      "rest_position_m": [
+        -0.021165000274777412,
+        -0.885138988494873,
+        0.6582710146903992
+      ]
+    },
+    {
+      "name": "right_small_toe",
+      "joint_index": 23,
+      "parent": "right_ankle",
+      "rest_position_m": [
+        -0.041843000799417496,
+        -0.8770179748535156,
+        0.6457939743995667
+      ]
+    },
+    {
+      "name": "right_heel",
+      "joint_index": 25,
+      "parent": "right_ankle",
+      "rest_position_m": [
+        -0.01157199963927269,
+        -0.8299409747123718,
+        0.6417639851570129
+      ]
+    }
+  ]
+}

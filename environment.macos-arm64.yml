@@ -1,0 +1,15 @@
+name: twochar_rtmpose
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy<2
+      - ultralytics==8.4.41
+      - opencv-python==4.11.0.86
+      - onnxruntime-silicon==1.16.3
+      - rtmlib==0.0.15
+      - torch==2.11.0
+      - torchvision==0.26.0
+      - joblib==1.5.3

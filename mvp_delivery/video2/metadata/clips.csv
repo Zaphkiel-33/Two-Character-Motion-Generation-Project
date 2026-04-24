@@ -1,0 +1,7 @@
+clip_name,start_frame,end_frame,duration_frames,duration_seconds,dominant_state,interaction_active_frames,hand_hand_frames,hand_body_frames
+01_interaction,0,142,142,4.7333,interaction,62,59,16
+02_interaction,142,265,123,4.1000,interaction,54,31,28
+03_transition,265,332,67,2.2333,transition,3,3,0
+04_transition,332,623,291,9.7000,transition,25,14,25
+05_transition,623,814,191,6.3667,transition,0,0,0
+06_interaction,814,987,173,5.7667,interaction,48,18,40

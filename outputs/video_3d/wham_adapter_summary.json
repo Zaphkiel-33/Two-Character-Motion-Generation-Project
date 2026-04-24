@@ -1,0 +1,15 @@
+{
+  "path": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/outputs2_improved/video_3d/wham_tracking_observations.pth",
+  "note": "This contains bbox/keypoints/frame_id from this project's frontend. Official WHAM still needs its FeatureExtractor to add image features and initial SMPL estimates.",
+  "roles": {
+    "character_A": {
+      "subject_id": 0,
+      "frames": 987
+    },
+    "character_B": {
+      "subject_id": 1,
+      "frames": 987
+    }
+  },
+  "source_video": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/video2.mp4"
+}

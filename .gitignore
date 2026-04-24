@@ -1,0 +1,29 @@
+# macOS / Python
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments / editor files
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+
+# Downloaded weights / local caches
+*.pt
+*.onnx
+.cache/
+
+# Old / temporary outputs
+outputs2/
+outputs2_improved/
+outputs_occlusion/
+verification_*/
+
+# This repository intentionally keeps:
+# - outputs/
+# - outputs_improved/
+# - mvp_delivery/
+# - video2.mp4

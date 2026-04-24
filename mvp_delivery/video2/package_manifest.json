@@ -1,0 +1,136 @@
+{
+  "source_label": "video2_mvp",
+  "source_motion_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/outputs_improved/video_3d/motion3d_sequences.json",
+  "source_video": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/video2.mp4",
+  "fps": 30.0,
+  "roles": {
+    "character_A": {
+      "skeleton_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/skeletons/character_A_skeleton.json",
+      "full_animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/full_sequence/character_A_full_animation.json",
+      "full_bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/full_sequence/character_A_full_sequence.bvh"
+    },
+    "character_B": {
+      "skeleton_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/skeletons/character_B_skeleton.json",
+      "full_animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/full_sequence/character_B_full_animation.json",
+      "full_bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/full_sequence/character_B_full_sequence.bvh"
+    }
+  },
+  "clips": [
+    {
+      "name": "01_interaction",
+      "directory": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/01_interaction",
+      "start_frame": 0,
+      "end_frame": 142,
+      "files": {
+        "character_A": {
+          "animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/01_interaction/character_A_animation.json",
+          "bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/01_interaction/character_A.bvh"
+        },
+        "character_B": {
+          "animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/01_interaction/character_B_animation.json",
+          "bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/01_interaction/character_B.bvh"
+        },
+        "dual_scene_gltf": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/01_interaction/dual_scene.gltf",
+        "clip_meta_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/01_interaction/clip.meta.json"
+      }
+    },
+    {
+      "name": "02_interaction",
+      "directory": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/02_interaction",
+      "start_frame": 142,
+      "end_frame": 265,
+      "files": {
+        "character_A": {
+          "animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/02_interaction/character_A_animation.json",
+          "bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/02_interaction/character_A.bvh"
+        },
+        "character_B": {
+          "animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/02_interaction/character_B_animation.json",
+          "bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/02_interaction/character_B.bvh"
+        },
+        "dual_scene_gltf": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/02_interaction/dual_scene.gltf",
+        "clip_meta_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/02_interaction/clip.meta.json"
+      }
+    },
+    {
+      "name": "03_transition",
+      "directory": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/03_transition",
+      "start_frame": 265,
+      "end_frame": 332,
+      "files": {
+        "character_A": {
+          "animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/03_transition/character_A_animation.json",
+          "bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/03_transition/character_A.bvh"
+        },
+        "character_B": {
+          "animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/03_transition/character_B_animation.json",
+          "bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/03_transition/character_B.bvh"
+        },
+        "dual_scene_gltf": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/03_transition/dual_scene.gltf",
+        "clip_meta_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/03_transition/clip.meta.json"
+      }
+    },
+    {
+      "name": "04_transition",
+      "directory": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/04_transition",
+      "start_frame": 332,
+      "end_frame": 623,
+      "files": {
+        "character_A": {
+          "animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/04_transition/character_A_animation.json",
+          "bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/04_transition/character_A.bvh"
+        },
+        "character_B": {
+          "animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/04_transition/character_B_animation.json",
+          "bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/04_transition/character_B.bvh"
+        },
+        "dual_scene_gltf": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/04_transition/dual_scene.gltf",
+        "clip_meta_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/04_transition/clip.meta.json"
+      }
+    },
+    {
+      "name": "05_transition",
+      "directory": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/05_transition",
+      "start_frame": 623,
+      "end_frame": 814,
+      "files": {
+        "character_A": {
+          "animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/05_transition/character_A_animation.json",
+          "bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/05_transition/character_A.bvh"
+        },
+        "character_B": {
+          "animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/05_transition/character_B_animation.json",
+          "bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/05_transition/character_B.bvh"
+        },
+        "dual_scene_gltf": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/05_transition/dual_scene.gltf",
+        "clip_meta_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/05_transition/clip.meta.json"
+      }
+    },
+    {
+      "name": "06_interaction",
+      "directory": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/06_interaction",
+      "start_frame": 814,
+      "end_frame": 987,
+      "files": {
+        "character_A": {
+          "animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/06_interaction/character_A_animation.json",
+          "bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/06_interaction/character_A.bvh"
+        },
+        "character_B": {
+          "animation_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/06_interaction/character_B_animation.json",
+          "bvh": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/06_interaction/character_B.bvh"
+        },
+        "dual_scene_gltf": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/06_interaction/dual_scene.gltf",
+        "clip_meta_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/clips/06_interaction/clip.meta.json"
+      }
+    }
+  ],
+  "files": {
+    "interaction_constraints": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/metadata/interaction_constraints.json",
+    "ik_metadata": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/metadata/ik_metadata.json",
+    "collision_capsules": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/metadata/collision_capsules.json",
+    "clips_json": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/metadata/clips.json",
+    "clips_csv": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/metadata/clips.csv",
+    "export_manifest": "/Users/youran/Desktop/Sophomore/Industrial Project/Project/mvp_delivery/video2/export_manifest.json"
+  }
+}

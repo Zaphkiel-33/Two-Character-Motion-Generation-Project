@@ -1,0 +1,21 @@
+{
+  "clip_index": 2,
+  "name": "03_transition",
+  "start_frame": 265,
+  "end_frame": 332,
+  "duration_frames": 67,
+  "duration_seconds": 2.2333333333333334,
+  "dominant_state": "transition",
+  "sync_points": [
+    0,
+    64,
+    65,
+    66
+  ],
+  "interaction_summary": {
+    "hand_hand_frames": 3,
+    "hand_body_frames": 0,
+    "interaction_active_frames": 3
+  },
+  "loop_candidate": false
+}

@@ -1,0 +1,2421 @@
+{
+  "ground_y": -1.2462269484996795,
+  "hand_hand": [
+    {
+      "frame_index": 0,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.17809714376926422
+    },
+    {
+      "frame_index": 0,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.17202791571617126
+    },
+    {
+      "frame_index": 1,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.18106956779956818
+    },
+    {
+      "frame_index": 1,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.17202791571617126
+    },
+    {
+      "frame_index": 5,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3035294711589813
+    },
+    {
+      "frame_index": 5,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.21271689236164093
+    },
+    {
+      "frame_index": 6,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3072066605091095
+    },
+    {
+      "frame_index": 6,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.22912530601024628
+    },
+    {
+      "frame_index": 7,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3217633366584778
+    },
+    {
+      "frame_index": 7,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2489650994539261
+    },
+    {
+      "frame_index": 8,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.33754295110702515
+    },
+    {
+      "frame_index": 8,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.267194926738739
+    },
+    {
+      "frame_index": 9,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3497071862220764
+    },
+    {
+      "frame_index": 9,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.27958598732948303
+    },
+    {
+      "frame_index": 10,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2901957333087921
+    },
+    {
+      "frame_index": 11,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.3294898569583893
+    },
+    {
+      "frame_index": 32,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.31492117047309875
+    },
+    {
+      "frame_index": 33,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2612224519252777
+    },
+    {
+      "frame_index": 34,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.20029641687870026
+    },
+    {
+      "frame_index": 34,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2947300672531128
+    },
+    {
+      "frame_index": 35,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.30563417077064514
+    },
+    {
+      "frame_index": 35,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.17028291523456573
+    },
+    {
+      "frame_index": 35,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2644800841808319
+    },
+    {
+      "frame_index": 36,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2827935516834259
+    },
+    {
+      "frame_index": 36,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.1671554297208786
+    },
+    {
+      "frame_index": 36,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3140823543071747
+    },
+    {
+      "frame_index": 37,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2686949372291565
+    },
+    {
+      "frame_index": 37,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.1746673882007599
+    },
+    {
+      "frame_index": 38,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.28089210391044617
+    },
+    {
+      "frame_index": 38,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.17597834765911102
+    },
+    {
+      "frame_index": 39,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.30857744812965393
+    },
+    {
+      "frame_index": 39,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.19462236762046814
+    },
+    {
+      "frame_index": 40,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.3371613323688507
+    },
+    {
+      "frame_index": 40,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.22787123918533325
+    },
+    {
+      "frame_index": 41,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2658579349517822
+    },
+    {
+      "frame_index": 42,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.284000426530838
+    },
+    {
+      "frame_index": 43,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.34451428055763245
+    },
+    {
+      "frame_index": 43,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.26907283067703247
+    },
+    {
+      "frame_index": 44,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2849310338497162
+    },
+    {
+      "frame_index": 44,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2041298896074295
+    },
+    {
+      "frame_index": 45,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.22839058935642242
+    },
+    {
+      "frame_index": 45,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.1483052372932434
+    },
+    {
+      "frame_index": 46,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.15974123775959015
+    },
+    {
+      "frame_index": 46,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.08942864090204239
+    },
+    {
+      "frame_index": 47,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.13103777170181274
+    },
+    {
+      "frame_index": 47,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.08523774892091751
+    },
+    {
+      "frame_index": 48,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.14488746225833893
+    },
+    {
+      "frame_index": 48,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.09841566532850266
+    },
+    {
+      "frame_index": 49,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.1745719611644745
+    },
+    {
+      "frame_index": 49,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.15801110863685608
+    },
+    {
+      "frame_index": 50,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.21489928662776947
+    },
+    {
+      "frame_index": 50,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.21179260313510895
+    },
+    {
+      "frame_index": 51,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.26102182269096375
+    },
+    {
+      "frame_index": 51,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.26168912649154663
+    },
+    {
+      "frame_index": 52,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.29783982038497925
+    },
+    {
+      "frame_index": 52,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2983603775501251
+    },
+    {
+      "frame_index": 53,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.3363938331604004
+    },
+    {
+      "frame_index": 53,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3383799195289612
+    },
+    {
+      "frame_index": 75,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.24700751900672913
+    },
+    {
+      "frame_index": 76,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2905940115451813
+    },
+    {
+      "frame_index": 76,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.12175025045871735
+    },
+    {
+      "frame_index": 76,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.31269150972366333
+    },
+    {
+      "frame_index": 77,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.19455543160438538
+    },
+    {
+      "frame_index": 77,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.21537429094314575
+    },
+    {
+      "frame_index": 77,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2841790020465851
+    },
+    {
+      "frame_index": 78,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.1430869847536087
+    },
+    {
+      "frame_index": 78,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.28947195410728455
+    },
+    {
+      "frame_index": 78,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.30617016553878784
+    },
+    {
+      "frame_index": 79,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.15744099020957947
+    },
+    {
+      "frame_index": 79,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.27974987030029297
+    },
+    {
+      "frame_index": 79,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3004275858402252
+    },
+    {
+      "frame_index": 80,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.1357503980398178
+    },
+    {
+      "frame_index": 80,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2331414371728897
+    },
+    {
+      "frame_index": 80,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2765681743621826
+    },
+    {
+      "frame_index": 81,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.11741721630096436
+    },
+    {
+      "frame_index": 81,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.18625417351722717
+    },
+    {
+      "frame_index": 81,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.26411259174346924
+    },
+    {
+      "frame_index": 82,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.12490643560886383
+    },
+    {
+      "frame_index": 82,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.10805957019329071
+    },
+    {
+      "frame_index": 82,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2786236107349396
+    },
+    {
+      "frame_index": 83,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.1857214719057083
+    },
+    {
+      "frame_index": 83,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.04493287205696106
+    },
+    {
+      "frame_index": 83,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2903207242488861
+    },
+    {
+      "frame_index": 84,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.24166235327720642
+    },
+    {
+      "frame_index": 84,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.10411311686038971
+    },
+    {
+      "frame_index": 84,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.29695963859558105
+    },
+    {
+      "frame_index": 85,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.3157689571380615
+    },
+    {
+      "frame_index": 85,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.16372326016426086
+    },
+    {
+      "frame_index": 85,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3113880753517151
+    },
+    {
+      "frame_index": 86,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.21227386593818665
+    },
+    {
+      "frame_index": 86,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3461618423461914
+    },
+    {
+      "frame_index": 87,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.25691473484039307
+    },
+    {
+      "frame_index": 88,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.29472851753234863
+    },
+    {
+      "frame_index": 89,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.32654711604118347
+    },
+    {
+      "frame_index": 129,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.34193840622901917
+    },
+    {
+      "frame_index": 130,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2359141856431961
+    },
+    {
+      "frame_index": 131,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.17209146916866302
+    },
+    {
+      "frame_index": 132,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.1419791877269745
+    },
+    {
+      "frame_index": 133,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.10854113101959229
+    },
+    {
+      "frame_index": 134,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.0758398100733757
+    },
+    {
+      "frame_index": 135,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.07447471469640732
+    },
+    {
+      "frame_index": 136,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.09937475621700287
+    },
+    {
+      "frame_index": 137,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.11201193928718567
+    },
+    {
+      "frame_index": 138,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.11674298346042633
+    },
+    {
+      "frame_index": 139,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.13112498819828033
+    },
+    {
+      "frame_index": 140,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.15650124847888947
+    },
+    {
+      "frame_index": 141,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.3263167440891266
+    },
+    {
+      "frame_index": 218,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3144351541996002
+    },
+    {
+      "frame_index": 219,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.32541245222091675
+    },
+    {
+      "frame_index": 233,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.33991023898124695
+    },
+    {
+      "frame_index": 234,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.25673535466194153
+    },
+    {
+      "frame_index": 235,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.17609508335590363
+    },
+    {
+      "frame_index": 236,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.30829399824142456
+    },
+    {
+      "frame_index": 240,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.3417311906814575
+    },
+    {
+      "frame_index": 241,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.3141889274120331
+    },
+    {
+      "frame_index": 242,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.22634382545948029
+    },
+    {
+      "frame_index": 243,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.17352823913097382
+    },
+    {
+      "frame_index": 244,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.19360990822315216
+    },
+    {
+      "frame_index": 245,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.24741031229496002
+    },
+    {
+      "frame_index": 246,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.25875142216682434
+    },
+    {
+      "frame_index": 247,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2503371238708496
+    },
+    {
+      "frame_index": 248,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.24860554933547974
+    },
+    {
+      "frame_index": 249,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.25552108883857727
+    },
+    {
+      "frame_index": 250,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2838009297847748
+    },
+    {
+      "frame_index": 251,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.31631559133529663
+    },
+    {
+      "frame_index": 252,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.32499852776527405
+    },
+    {
+      "frame_index": 253,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.308392196893692
+    },
+    {
+      "frame_index": 254,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2571617364883423
+    },
+    {
+      "frame_index": 255,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.21175667643547058
+    },
+    {
+      "frame_index": 256,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.19494622945785522
+    },
+    {
+      "frame_index": 257,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.18868553638458252
+    },
+    {
+      "frame_index": 258,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.3417358994483948
+    },
+    {
+      "frame_index": 258,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.19279015064239502
+    },
+    {
+      "frame_index": 259,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.33342134952545166
+    },
+    {
+      "frame_index": 259,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2191392034292221
+    },
+    {
+      "frame_index": 260,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.24484191834926605
+    },
+    {
+      "frame_index": 261,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.264780730009079
+    },
+    {
+      "frame_index": 262,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.27371445298194885
+    },
+    {
+      "frame_index": 263,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.25243163108825684
+    },
+    {
+      "frame_index": 264,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2831752300262451
+    },
+    {
+      "frame_index": 329,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.3491099178791046
+    },
+    {
+      "frame_index": 330,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.27434641122817993
+    },
+    {
+      "frame_index": 331,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.28035327792167664
+    },
+    {
+      "frame_index": 598,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.32949966192245483
+    },
+    {
+      "frame_index": 599,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.27991819381713867
+    },
+    {
+      "frame_index": 600,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3278798758983612
+    },
+    {
+      "frame_index": 607,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3038536012172699
+    },
+    {
+      "frame_index": 608,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.18037262558937073
+    },
+    {
+      "frame_index": 609,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.15598954260349274
+    },
+    {
+      "frame_index": 610,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.25074583292007446
+    },
+    {
+      "frame_index": 616,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.3496464192867279
+    },
+    {
+      "frame_index": 617,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.28022295236587524
+    },
+    {
+      "frame_index": 618,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.23407959938049316
+    },
+    {
+      "frame_index": 619,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2861221432685852
+    },
+    {
+      "frame_index": 619,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2545204162597656
+    },
+    {
+      "frame_index": 620,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2375807911157608
+    },
+    {
+      "frame_index": 620,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.29143181443214417
+    },
+    {
+      "frame_index": 621,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2675022482872009
+    },
+    {
+      "frame_index": 622,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.34582170844078064
+    },
+    {
+      "frame_index": 926,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.33164283633232117
+    },
+    {
+      "frame_index": 927,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.28852081298828125
+    },
+    {
+      "frame_index": 928,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2577897608280182
+    },
+    {
+      "frame_index": 929,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.24943868815898895
+    },
+    {
+      "frame_index": 930,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.2600342929363251
+    },
+    {
+      "frame_index": 931,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.29529663920402527
+    },
+    {
+      "frame_index": 932,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.3444199860095978
+    },
+    {
+      "frame_index": 950,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.33913737535476685
+    },
+    {
+      "frame_index": 951,
+      "role_a_joint": "left_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.3267245292663574
+    },
+    {
+      "frame_index": 951,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.18295131623744965
+    },
+    {
+      "frame_index": 951,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.32084769010543823
+    },
+    {
+      "frame_index": 952,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.11007824540138245
+    },
+    {
+      "frame_index": 952,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.18232859671115875
+    },
+    {
+      "frame_index": 953,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.09326878190040588
+    },
+    {
+      "frame_index": 953,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.15793175995349884
+    },
+    {
+      "frame_index": 954,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.1201404556632042
+    },
+    {
+      "frame_index": 954,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.1843225508928299
+    },
+    {
+      "frame_index": 955,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.183674156665802
+    },
+    {
+      "frame_index": 955,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2013043314218521
+    },
+    {
+      "frame_index": 956,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.24718651175498962
+    },
+    {
+      "frame_index": 956,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.20585304498672485
+    },
+    {
+      "frame_index": 957,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "left_wrist",
+      "distance_m": 0.33309173583984375
+    },
+    {
+      "frame_index": 957,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.14454203844070435
+    },
+    {
+      "frame_index": 958,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.1382017433643341
+    },
+    {
+      "frame_index": 959,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.2264181226491928
+    },
+    {
+      "frame_index": 960,
+      "role_a_joint": "right_wrist",
+      "role_b_joint": "right_wrist",
+      "distance_m": 0.3141951858997345
+    }
+  ],
+  "hand_body": [
+    {
+      "frame_index": 46,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2714976966381073
+    },
+    {
+      "frame_index": 47,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.23007483780384064
+    },
+    {
+      "frame_index": 48,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.19314458966255188
+    },
+    {
+      "frame_index": 49,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.14722925424575806
+    },
+    {
+      "frame_index": 50,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.11875000596046448
+    },
+    {
+      "frame_index": 51,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1080266609787941
+    },
+    {
+      "frame_index": 52,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.11697322875261307
+    },
+    {
+      "frame_index": 53,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.14044706523418427
+    },
+    {
+      "frame_index": 54,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.17558090388774872
+    },
+    {
+      "frame_index": 55,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.21772345900535583
+    },
+    {
+      "frame_index": 56,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2573499083518982
+    },
+    {
+      "frame_index": 77,
+      "source_role": "character_B",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2584277391433716
+    },
+    {
+      "frame_index": 78,
+      "source_role": "character_B",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.24974139034748077
+    },
+    {
+      "frame_index": 79,
+      "source_role": "character_B",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.25018638372421265
+    },
+    {
+      "frame_index": 80,
+      "source_role": "character_B",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.25091928243637085
+    },
+    {
+      "frame_index": 81,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2778197228908539
+    },
+    {
+      "frame_index": 81,
+      "source_role": "character_B",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2623944878578186
+    },
+    {
+      "frame_index": 205,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2134309858083725
+    },
+    {
+      "frame_index": 206,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.187236949801445
+    },
+    {
+      "frame_index": 207,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.18282413482666016
+    },
+    {
+      "frame_index": 208,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.18848687410354614
+    },
+    {
+      "frame_index": 209,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.21972030401229858
+    },
+    {
+      "frame_index": 210,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2580503523349762
+    },
+    {
+      "frame_index": 210,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2045574188232422
+    },
+    {
+      "frame_index": 211,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.22999857366085052
+    },
+    {
+      "frame_index": 211,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.17121855914592743
+    },
+    {
+      "frame_index": 212,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.21087822318077087
+    },
+    {
+      "frame_index": 212,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.15439750254154205
+    },
+    {
+      "frame_index": 213,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.19426235556602478
+    },
+    {
+      "frame_index": 213,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.16883930563926697
+    },
+    {
+      "frame_index": 214,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.16851556301116943
+    },
+    {
+      "frame_index": 214,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.18462280929088593
+    },
+    {
+      "frame_index": 215,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.11910903453826904
+    },
+    {
+      "frame_index": 215,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.22285130620002747
+    },
+    {
+      "frame_index": 216,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.05826280266046524
+    },
+    {
+      "frame_index": 216,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2770213186740875
+    },
+    {
+      "frame_index": 217,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.07639174908399582
+    },
+    {
+      "frame_index": 218,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.18841196596622467
+    },
+    {
+      "frame_index": 219,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.17578941583633423
+    },
+    {
+      "frame_index": 220,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.10633745044469833
+    },
+    {
+      "frame_index": 221,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.049101926386356354
+    },
+    {
+      "frame_index": 222,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.07475855201482773
+    },
+    {
+      "frame_index": 223,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.10213254392147064
+    },
+    {
+      "frame_index": 224,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.12218689918518066
+    },
+    {
+      "frame_index": 225,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.11739630252122879
+    },
+    {
+      "frame_index": 226,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.09878500550985336
+    },
+    {
+      "frame_index": 236,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.23587864637374878
+    },
+    {
+      "frame_index": 237,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1577773243188858
+    },
+    {
+      "frame_index": 238,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.13338470458984375
+    },
+    {
+      "frame_index": 239,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1330084651708603
+    },
+    {
+      "frame_index": 240,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.18090824782848358
+    },
+    {
+      "frame_index": 241,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2099999487400055
+    },
+    {
+      "frame_index": 598,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.23761652410030365
+    },
+    {
+      "frame_index": 599,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.12358390539884567
+    },
+    {
+      "frame_index": 600,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.26027271151542664
+    },
+    {
+      "frame_index": 600,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1179046705365181
+    },
+    {
+      "frame_index": 601,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.23621585965156555
+    },
+    {
+      "frame_index": 601,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1577858179807663
+    },
+    {
+      "frame_index": 602,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2333986759185791
+    },
+    {
+      "frame_index": 602,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.19963805377483368
+    },
+    {
+      "frame_index": 603,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.24851694703102112
+    },
+    {
+      "frame_index": 603,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.22401656210422516
+    },
+    {
+      "frame_index": 604,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.25679028034210205
+    },
+    {
+      "frame_index": 604,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.24643340706825256
+    },
+    {
+      "frame_index": 605,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2628747522830963
+    },
+    {
+      "frame_index": 605,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2644146680831909
+    },
+    {
+      "frame_index": 606,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.25668883323669434
+    },
+    {
+      "frame_index": 607,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.23893481492996216
+    },
+    {
+      "frame_index": 608,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.22285491228103638
+    },
+    {
+      "frame_index": 609,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.20438015460968018
+    },
+    {
+      "frame_index": 610,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.19201819598674774
+    },
+    {
+      "frame_index": 611,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.157420814037323
+    },
+    {
+      "frame_index": 612,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1038207933306694
+    },
+    {
+      "frame_index": 613,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.05997323989868164
+    },
+    {
+      "frame_index": 614,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.034654345363378525
+    },
+    {
+      "frame_index": 615,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.020650140941143036
+    },
+    {
+      "frame_index": 616,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.03988916054368019
+    },
+    {
+      "frame_index": 617,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.06031418964266777
+    },
+    {
+      "frame_index": 618,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.07920022308826447
+    },
+    {
+      "frame_index": 619,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.10687123984098434
+    },
+    {
+      "frame_index": 620,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1454194337129593
+    },
+    {
+      "frame_index": 621,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1968793421983719
+    },
+    {
+      "frame_index": 622,
+      "source_role": "character_A",
+      "source_joint": "left_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.24415723979473114
+    },
+    {
+      "frame_index": 931,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.24845437705516815
+    },
+    {
+      "frame_index": 932,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.23487505316734314
+    },
+    {
+      "frame_index": 933,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2282402515411377
+    },
+    {
+      "frame_index": 934,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.23273101449012756
+    },
+    {
+      "frame_index": 935,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.24703146517276764
+    },
+    {
+      "frame_index": 936,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.26804250478744507
+    },
+    {
+      "frame_index": 953,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2792840301990509
+    },
+    {
+      "frame_index": 954,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.24073031544685364
+    },
+    {
+      "frame_index": 955,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.21567317843437195
+    },
+    {
+      "frame_index": 956,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.2182333618402481
+    },
+    {
+      "frame_index": 957,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.21236838400363922
+    },
+    {
+      "frame_index": 958,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.18070626258850098
+    },
+    {
+      "frame_index": 959,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.14929251372814178
+    },
+    {
+      "frame_index": 960,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1230240911245346
+    },
+    {
+      "frame_index": 961,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.11186042428016663
+    },
+    {
+      "frame_index": 962,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.09464646130800247
+    },
+    {
+      "frame_index": 963,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.05257847160100937
+    },
+    {
+      "frame_index": 964,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.05358825623989105
+    },
+    {
+      "frame_index": 965,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.10665014386177063
+    },
+    {
+      "frame_index": 966,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1620306521654129
+    },
+    {
+      "frame_index": 967,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1906217336654663
+    },
+    {
+      "frame_index": 968,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.20387278497219086
+    },
+    {
+      "frame_index": 969,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1962343007326126
+    },
+    {
+      "frame_index": 970,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1954387128353119
+    },
+    {
+      "frame_index": 971,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.19425854086875916
+    },
+    {
+      "frame_index": 972,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.19308225810527802
+    },
+    {
+      "frame_index": 973,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.19099752604961395
+    },
+    {
+      "frame_index": 974,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1853354573249817
+    },
+    {
+      "frame_index": 975,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1845678836107254
+    },
+    {
+      "frame_index": 976,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.18556959927082062
+    },
+    {
+      "frame_index": 977,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.18637804687023163
+    },
+    {
+      "frame_index": 978,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.19002240896224976
+    },
+    {
+      "frame_index": 979,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1935240775346756
+    },
+    {
+      "frame_index": 980,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.19415368139743805
+    },
+    {
+      "frame_index": 981,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.18926644325256348
+    },
+    {
+      "frame_index": 982,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.18343660235404968
+    },
+    {
+      "frame_index": 983,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.1804131120443344
+    },
+    {
+      "frame_index": 984,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.17981989681720734
+    },
+    {
+      "frame_index": 985,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.17466865479946136
+    },
+    {
+      "frame_index": 986,
+      "source_role": "character_A",
+      "source_joint": "right_wrist",
+      "target": "other_body_core",
+      "distance_m": 0.16761301457881927
+    }
+  ],
+  "collision_corrections": [
+    {
+      "frame_index": 2,
+      "separation_before_m": 0.01629805751144886,
+      "push_each_m": 0.18185097124427557
+    },
+    {
+      "frame_index": 3,
+      "separation_before_m": 0.03814270347356796,
+      "push_each_m": 0.17092864826321602
+    },
+    {
+      "frame_index": 4,
+      "separation_before_m": 0.018987910822033882,
+      "push_each_m": 0.18050604458898306
+    },
+    {
+      "frame_index": 5,
+      "separation_before_m": 0.0395117811858654,
+      "push_each_m": 0.1702441094070673
+    },
+    {
+      "frame_index": 6,
+      "separation_before_m": 0.12005843222141266,
+      "push_each_m": 0.12997078388929367
+    },
+    {
+      "frame_index": 7,
+      "separation_before_m": 0.19625075161457062,
+      "push_each_m": 0.0918746241927147
+    },
+    {
+      "frame_index": 8,
+      "separation_before_m": 0.25875088572502136,
+      "push_each_m": 0.06062455713748932
+    },
+    {
+      "frame_index": 9,
+      "separation_before_m": 0.30572688579559326,
+      "push_each_m": 0.03713655710220337
+    },
+    {
+      "frame_index": 10,
+      "separation_before_m": 0.35522815585136414,
+      "push_each_m": 0.012385922074317934
+    },
+    {
+      "frame_index": 50,
+      "separation_before_m": 0.3652549684047699,
+      "push_each_m": 0.0073725157976150535
+    },
+    {
+      "frame_index": 51,
+      "separation_before_m": 0.3336261510848999,
+      "push_each_m": 0.02318692445755005
+    },
+    {
+      "frame_index": 52,
+      "separation_before_m": 0.29396316409111023,
+      "push_each_m": 0.04301841795444489
+    },
+    {
+      "frame_index": 53,
+      "separation_before_m": 0.2714833617210388,
+      "push_each_m": 0.05425831913948059
+    },
+    {
+      "frame_index": 54,
+      "separation_before_m": 0.2755303680896759,
+      "push_each_m": 0.05223481595516205
+    },
+    {
+      "frame_index": 55,
+      "separation_before_m": 0.29249948263168335,
+      "push_each_m": 0.04375025868415833
+    },
+    {
+      "frame_index": 56,
+      "separation_before_m": 0.32778608798980713,
+      "push_each_m": 0.026106956005096438
+    },
+    {
+      "frame_index": 63,
+      "separation_before_m": 0.33257243037223816,
+      "push_each_m": 0.023713784813880923
+    },
+    {
+      "frame_index": 64,
+      "separation_before_m": 0.302322655916214,
+      "push_each_m": 0.03883867204189301
+    },
+    {
+      "frame_index": 65,
+      "separation_before_m": 0.3269032835960388,
+      "push_each_m": 0.026548358201980593
+    },
+    {
+      "frame_index": 72,
+      "separation_before_m": 0.31469255685806274,
+      "push_each_m": 0.03265372157096863
+    },
+    {
+      "frame_index": 73,
+      "separation_before_m": 0.23564566671848297,
+      "push_each_m": 0.07217716664075852
+    },
+    {
+      "frame_index": 74,
+      "separation_before_m": 0.17374181747436523,
+      "push_each_m": 0.10312909126281739
+    },
+    {
+      "frame_index": 75,
+      "separation_before_m": 0.17319650948047638,
+      "push_each_m": 0.10340174525976181
+    },
+    {
+      "frame_index": 76,
+      "separation_before_m": 0.20163953304290771,
+      "push_each_m": 0.08918023347854614
+    },
+    {
+      "frame_index": 77,
+      "separation_before_m": 0.2332068532705307,
+      "push_each_m": 0.07339657336473465
+    },
+    {
+      "frame_index": 78,
+      "separation_before_m": 0.263134241104126,
+      "push_each_m": 0.058432879447937014
+    },
+    {
+      "frame_index": 79,
+      "separation_before_m": 0.2953558564186096,
+      "push_each_m": 0.04232207179069519
+    },
+    {
+      "frame_index": 80,
+      "separation_before_m": 0.3328808546066284,
+      "push_each_m": 0.023559572696685793
+    },
+    {
+      "frame_index": 81,
+      "separation_before_m": 0.3695225715637207,
+      "push_each_m": 0.005238714218139651
+    },
+    {
+      "frame_index": 212,
+      "separation_before_m": 0.35122230648994446,
+      "push_each_m": 0.014388846755027773
+    },
+    {
+      "frame_index": 213,
+      "separation_before_m": 0.2742229402065277,
+      "push_each_m": 0.05288852989673615
+    },
+    {
+      "frame_index": 214,
+      "separation_before_m": 0.2173808068037033,
+      "push_each_m": 0.08130959659814835
+    },
+    {
+      "frame_index": 215,
+      "separation_before_m": 0.15864799916744232,
+      "push_each_m": 0.11067600041627884
+    },
+    {
+      "frame_index": 216,
+      "separation_before_m": 0.1125904992222786,
+      "push_each_m": 0.1337047503888607
+    },
+    {
+      "frame_index": 217,
+      "separation_before_m": 0.08918830007314682,
+      "push_each_m": 0.1454058499634266
+    },
+    {
+      "frame_index": 218,
+      "separation_before_m": 0.06885948032140732,
+      "push_each_m": 0.15557025983929634
+    },
+    {
+      "frame_index": 219,
+      "separation_before_m": 0.07634994387626648,
+      "push_each_m": 0.15182502806186676
+    },
+    {
+      "frame_index": 220,
+      "separation_before_m": 0.09530268609523773,
+      "push_each_m": 0.14234865695238114
+    },
+    {
+      "frame_index": 221,
+      "separation_before_m": 0.13009802997112274,
+      "push_each_m": 0.12495098501443863
+    },
+    {
+      "frame_index": 222,
+      "separation_before_m": 0.16951951384544373,
+      "push_each_m": 0.10524024307727814
+    },
+    {
+      "frame_index": 223,
+      "separation_before_m": 0.17803779244422913,
+      "push_each_m": 0.10098110377788544
+    },
+    {
+      "frame_index": 224,
+      "separation_before_m": 0.15626434981822968,
+      "push_each_m": 0.11186782509088516
+    },
+    {
+      "frame_index": 225,
+      "separation_before_m": 0.1128244698047638,
+      "push_each_m": 0.1335877650976181
+    },
+    {
+      "frame_index": 226,
+      "separation_before_m": 0.05407089740037918,
+      "push_each_m": 0.1629645512998104
+    },
+    {
+      "frame_index": 227,
+      "separation_before_m": 0.05182540789246559,
+      "push_each_m": 0.1640872960537672
+    },
+    {
+      "frame_index": 228,
+      "separation_before_m": 0.11122695356607437,
+      "push_each_m": 0.13438652321696282
+    },
+    {
+      "frame_index": 229,
+      "separation_before_m": 0.12506185472011566,
+      "push_each_m": 0.12746907263994217
+    },
+    {
+      "frame_index": 230,
+      "separation_before_m": 0.07773562520742416,
+      "push_each_m": 0.15113218739628792
+    },
+    {
+      "frame_index": 231,
+      "separation_before_m": 0.040227778255939484,
+      "push_each_m": 0.16988611087203026
+    },
+    {
+      "frame_index": 232,
+      "separation_before_m": 0.03565838932991028,
+      "push_each_m": 0.17217080533504486
+    },
+    {
+      "frame_index": 233,
+      "separation_before_m": 0.05402764678001404,
+      "push_each_m": 0.16298617660999298
+    },
+    {
+      "frame_index": 234,
+      "separation_before_m": 0.061470795422792435,
+      "push_each_m": 0.15926460228860378
+    },
+    {
+      "frame_index": 235,
+      "separation_before_m": 0.06461577117443085,
+      "push_each_m": 0.15769211441278458
+    },
+    {
+      "frame_index": 236,
+      "separation_before_m": 0.08879157155752182,
+      "push_each_m": 0.1456042142212391
+    },
+    {
+      "frame_index": 237,
+      "separation_before_m": 0.120939701795578,
+      "push_each_m": 0.129530149102211
+    },
+    {
+      "frame_index": 238,
+      "separation_before_m": 0.14281094074249268,
+      "push_each_m": 0.11859452962875366
+    },
+    {
+      "frame_index": 239,
+      "separation_before_m": 0.15139277279376984,
+      "push_each_m": 0.11430361360311508
+    },
+    {
+      "frame_index": 240,
+      "separation_before_m": 0.14028117060661316,
+      "push_each_m": 0.11985941469669342
+    },
+    {
+      "frame_index": 241,
+      "separation_before_m": 0.15015491843223572,
+      "push_each_m": 0.11492254078388214
+    },
+    {
+      "frame_index": 242,
+      "separation_before_m": 0.14160187542438507,
+      "push_each_m": 0.11919906228780747
+    },
+    {
+      "frame_index": 243,
+      "separation_before_m": 0.14724111557006836,
+      "push_each_m": 0.11637944221496582
+    },
+    {
+      "frame_index": 244,
+      "separation_before_m": 0.1641974002122879,
+      "push_each_m": 0.10790129989385605
+    },
+    {
+      "frame_index": 245,
+      "separation_before_m": 0.18935975432395935,
+      "push_each_m": 0.09532012283802033
+    },
+    {
+      "frame_index": 246,
+      "separation_before_m": 0.20483674108982086,
+      "push_each_m": 0.08758162945508957
+    },
+    {
+      "frame_index": 247,
+      "separation_before_m": 0.2141488790512085,
+      "push_each_m": 0.08292556047439575
+    },
+    {
+      "frame_index": 248,
+      "separation_before_m": 0.22847548127174377,
+      "push_each_m": 0.07576225936412812
+    },
+    {
+      "frame_index": 249,
+      "separation_before_m": 0.2507864534854889,
+      "push_each_m": 0.06460677325725556
+    },
+    {
+      "frame_index": 250,
+      "separation_before_m": 0.28850090503692627,
+      "push_each_m": 0.04574954748153687
+    },
+    {
+      "frame_index": 251,
+      "separation_before_m": 0.3302682936191559,
+      "push_each_m": 0.02486585319042206
+    },
+    {
+      "frame_index": 252,
+      "separation_before_m": 0.3540978729724884,
+      "push_each_m": 0.0129510635137558
+    },
+    {
+      "frame_index": 253,
+      "separation_before_m": 0.33766934275627136,
+      "push_each_m": 0.02116532862186432
+    },
+    {
+      "frame_index": 254,
+      "separation_before_m": 0.2971840798854828,
+      "push_each_m": 0.04140796005725861
+    },
+    {
+      "frame_index": 255,
+      "separation_before_m": 0.25683170557022095,
+      "push_each_m": 0.06158414721488953
+    },
+    {
+      "frame_index": 256,
+      "separation_before_m": 0.2366301417350769,
+      "push_each_m": 0.07168492913246155
+    },
+    {
+      "frame_index": 257,
+      "separation_before_m": 0.23993651568889618,
+      "push_each_m": 0.07003174215555191
+    },
+    {
+      "frame_index": 258,
+      "separation_before_m": 0.26846763491630554,
+      "push_each_m": 0.05576618254184723
+    },
+    {
+      "frame_index": 259,
+      "separation_before_m": 0.32610878348350525,
+      "push_each_m": 0.026945608258247378
+    },
+    {
+      "frame_index": 599,
+      "separation_before_m": 0.3461441099643707,
+      "push_each_m": 0.01692794501781464
+    },
+    {
+      "frame_index": 600,
+      "separation_before_m": 0.2607344388961792,
+      "push_each_m": 0.0596327805519104
+    },
+    {
+      "frame_index": 601,
+      "separation_before_m": 0.21056558191776276,
+      "push_each_m": 0.08471720904111862
+    },
+    {
+      "frame_index": 602,
+      "separation_before_m": 0.19874054193496704,
+      "push_each_m": 0.09062972903251648
+    },
+    {
+      "frame_index": 603,
+      "separation_before_m": 0.22554466128349304,
+      "push_each_m": 0.07722766935825348
+    },
+    {
+      "frame_index": 604,
+      "separation_before_m": 0.2638312578201294,
+      "push_each_m": 0.058084371089935305
+    },
+    {
+      "frame_index": 605,
+      "separation_before_m": 0.3008206784725189,
+      "push_each_m": 0.03958966076374054
+    },
+    {
+      "frame_index": 606,
+      "separation_before_m": 0.3325354754924774,
+      "push_each_m": 0.023732262253761294
+    },
+    {
+      "frame_index": 607,
+      "separation_before_m": 0.35050147771835327,
+      "push_each_m": 0.014749261140823366
+    },
+    {
+      "frame_index": 608,
+      "separation_before_m": 0.3590737581253052,
+      "push_each_m": 0.010463120937347414
+    },
+    {
+      "frame_index": 613,
+      "separation_before_m": 0.3782956004142761,
+      "push_each_m": 0.0008521997928619407
+    }
+  ],
+  "foot_lock_corrections": []
+}

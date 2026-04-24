@@ -1,0 +1,25 @@
+{
+  "clip_index": 5,
+  "name": "06_interaction",
+  "start_frame": 814,
+  "end_frame": 987,
+  "duration_frames": 173,
+  "duration_seconds": 5.766666666666667,
+  "dominant_state": "interaction",
+  "sync_points": [
+    0,
+    112,
+    113,
+    114,
+    117,
+    118,
+    119,
+    172
+  ],
+  "interaction_summary": {
+    "hand_hand_frames": 18,
+    "hand_body_frames": 40,
+    "interaction_active_frames": 48
+  },
+  "loop_candidate": false
+}
