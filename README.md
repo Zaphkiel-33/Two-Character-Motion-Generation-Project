@@ -1,42 +1,46 @@
+
 # Two-Character Motion Generation Project
 
-This repository is a practical MVP pipeline for extracting dual-character motion
-from a monocular video. It focuses on a student-project scenario: get a
-two-person interaction video running end to end, produce stable 2D tracking,
-reconstruct usable 3D motion, and export a minimum delivery package that can be
-inspected or taken into downstream animation tools.
+This project is a monocular two-person motion pipeline for a small-scale MVP.
 
-## What This Repository Already Includes
+Given a video with two interacting people, it does three things:
 
-- Source code for the 2D tracking, 3D reconstruction, and MVP export stages
-- A verified example input video: `video2.mp4`
-- Reference 2D and 3D outputs in `outputs/`
-- A standalone improved 3D result in `outputs_improved/`
-- A minimum delivery package in `mvp_delivery/video2/`
+1. detects and tracks both people
+2. estimates 2D pose for each person
+3. reconstructs a usable 3D skeleton sequence and exports a minimum delivery package
 
-For GitHub browsing convenience, `outputs/video_3d/` has already been replaced
-with the improved 3D result. In other words:
+The current repository is built around one verified demo input: `video2.mp4`.
 
-- `outputs/video_rtmpose/` is the reference 2D frontend output
-- `outputs/video_3d/` is the recommended improved 3D result
-- `outputs_improved/video_3d/` keeps the improved 3D result as a separate
-  explicit folder as well
+## Current State
 
-## Pipeline Overview
+The pipeline has been run end to end on `video2.mp4`, and the repository already includes:
 
-The current end-to-end flow is:
+- source code for the 2D, 3D, and export stages
+- a reference 2D result in `outputs/video_rtmpose/`
+- a published 3D result in `outputs/video_3d/`
+- a separate copy of the improved 3D result in `outputs_improved/video_3d/`
+- an MVP delivery package in `mvp_delivery/video2/`
 
-`video -> person detection/tracking -> role locking -> RTMPose -> temporal smoothing -> improved local 3D reconstruction -> MVP asset export`
+Note:
 
-Main stages:
+- `outputs/video_3d/` is already using the improved 3D result
+- `outputs_improved/video_3d/` is kept as a separate copy for comparison or later reuse
 
-1. detect persons with YOLO
+## Pipeline
+
+The current workflow is:
+
+`video -> detection and tracking -> role assignment -> 2D pose estimation -> temporal smoothing -> local 3D reconstruction -> MVP export`
+
+In practice, the stages are:
+
+1. detect person boxes with YOLO
 2. track them with BoT-SORT
-3. lock stable identities as `character_A` and `character_B`
+3. keep identities stable as `character_A` and `character_B`
 4. run RTMPose on each role crop
-5. smooth and export 2D sequences
-6. reconstruct dual-character 3D motion
-7. export BVH / glTF / JSON assets for MVP delivery
+5. smooth and export 2D pose sequences
+6. reconstruct 3D skeleton motion
+7. export BVH, glTF, and JSON assets
 
 ## Repository Structure
 
@@ -64,16 +68,16 @@ Main stages:
 
 ## Environment
 
-Tested locally on macOS Apple Silicon with Conda.
+This project was tested on macOS Apple Silicon with Conda.
 
-Create the environment:
+Create the environment with:
 
 ```bash
 conda env create -f environment.macos-arm64.yml
 conda activate twochar_rtmpose
 ```
 
-Core dependencies used by the pipeline:
+Main dependencies:
 
 - `ultralytics`
 - `opencv-python`
@@ -83,28 +87,38 @@ Core dependencies used by the pipeline:
 - `torch`
 - `torchvision`
 
-Model weights such as `yolov8n.pt` and `yolov8m.pt` are not required to be
-committed to GitHub. `ultralytics` can download the needed detector weights on
-first run if they are missing locally.
+The detector weights are not required to be stored in the repository. If they are missing locally, `ultralytics` can download them automatically on first run.
 
 ## Quick Start
 
-If you want the fastest verified end-to-end run in this repository:
+To run the full pipeline with the default demo video:
 
 ```bash
 ./run_mvp_delivery.sh
 ```
 
-Default behavior:
+Default paths:
 
 - input video: `video2.mp4`
 - 2D output: `outputs/video_rtmpose/`
 - improved 3D output: `outputs_improved/video_3d/`
-- MVP package: `mvp_delivery/video2/`
+- delivery package: `mvp_delivery/video2/`
 
-## Manual Reproduction
+If you want to regenerate the delivery package only:
 
-### 1. Run the 2D frontend
+```bash
+./run_mvp_delivery.sh --force-mvp
+```
+
+If you want to rerun everything from scratch:
+
+```bash
+./run_mvp_delivery.sh --force-2d --force-3d --force-mvp
+```
+
+## Step-by-Step Run
+
+### 1. Run the 2D stage
 
 ```bash
 ./run_two_character_pipeline.sh \
@@ -113,7 +127,7 @@ Default behavior:
   --save-video
 ```
 
-### 2. Run the improved 3D stage
+### 2. Run the 3D stage
 
 ```bash
 ./run_two_character_3d.sh \
@@ -123,7 +137,7 @@ Default behavior:
   --use-smoothed
 ```
 
-### 3. Export the MVP delivery package
+### 3. Export the MVP package
 
 ```bash
 python export_dual_interaction_mvp.py \
@@ -132,11 +146,13 @@ python export_dual_interaction_mvp.py \
   --source-label video2_mvp
 ```
 
-## Included Reference Results
+## Included Outputs
 
 ### `outputs/video_rtmpose/`
 
-Reference 2D result for the included demo video. Important files:
+This is the reference 2D result for `video2.mp4`.
+
+Main files:
 
 - `metadata.json`
 - `pose_sequences.json`
@@ -146,8 +162,9 @@ Reference 2D result for the included demo video. Important files:
 
 ### `outputs/video_3d/`
 
-Recommended 3D result for GitHub inspection. This folder now uses the improved
-3D reconstruction result rather than the old legacy baseline. Important files:
+This is the published 3D result included for inspection. In the current repository, this folder already uses the improved 3D reconstruction result.
+
+Main files:
 
 - `motion3d_sequences.json`
 - `motion3d_sequences.csv`
@@ -158,12 +175,13 @@ Recommended 3D result for GitHub inspection. This folder now uses the improved
 
 ### `outputs_improved/video_3d/`
 
-Standalone copy of the improved 3D run, kept separately for explicit comparison
-or reuse in later experiments.
+This is a separate copy of the improved 3D result.
 
 ### `mvp_delivery/video2/`
 
-Minimum deliverable package exported from the improved 3D result. It includes:
+This is the exported minimum delivery package.
+
+It includes:
 
 - `skeletons/`
 - `full_sequence/`
@@ -181,40 +199,32 @@ Each clip folder contains:
 - `dual_scene.gltf`
 - `clip.meta.json`
 
-## Current Validated Status
+## Verified Result on `video2.mp4`
 
-The current repository state has been rechecked end to end on `video2.mp4`.
+The current repository state has been checked end to end on `video2.mp4`.
 
-Current improved 3D metrics:
+Improved 3D metrics:
 
-- `character_A`: `987/987` valid frames, `valid_ratio = 1.0`
-- `character_B`: `987/987` valid frames, `valid_ratio = 1.0`
+- `character_A`: `987/987` valid frames
+- `character_B`: `987/987` valid frames
 - `character_A mean_bone_length_error_m`: `0.0037`
 - `character_B mean_bone_length_error_m`: `0.0048`
 - `hand_hand_count`: `185`
 - `hand_body_count`: `123`
 - `collision_correction_count`: `88`
 
-Current MVP package status:
+MVP export result:
 
-- 6 clips exported successfully
-- both roles included in every stage
-- per-clip `BVH + JSON + glTF` generated successfully
-- package metadata generated successfully
+- 6 clips generated successfully
+- both roles are present in all stages
+- each clip includes BVH, JSON, and glTF outputs
+- package metadata is complete
 
-## Useful Script Notes
+## Useful Options
 
-### `two_character_rtmpose_pipeline.py`
+### 2D pipeline
 
-2D frontend with:
-
-- YOLO person detection
-- BoT-SORT tracking
-- role locking
-- RTMPose pose estimation
-- recovery for short occlusion or missing segments
-
-Useful flags:
+`two_character_rtmpose_pipeline.py` supports:
 
 - `--pose-mode lightweight|balanced|performance`
 - `--tracking-preset default|occlusion`
@@ -222,11 +232,20 @@ Useful flags:
 - `--save-crops`
 - `--max-frames`
 
-### `two_character_3d_reconstruction.py`
+Example for a more difficult video with stronger occlusion handling:
 
-Local dual-character 3D reconstruction backend.
+```bash
+./run_two_character_pipeline.sh \
+  --video-path /absolute/path/to/video.mp4 \
+  --output-root /absolute/path/to/output/video_rtmpose \
+  --tracking-preset occlusion \
+  --pose-mode performance \
+  --save-video
+```
 
-Useful flags:
+### 3D pipeline
+
+`two_character_3d_reconstruction.py` supports:
 
 - `--use-smoothed`
 - `--reconstruction-mode improved|legacy`
@@ -235,7 +254,7 @@ Useful flags:
 - `--foot-lock-min-frames`
 - `--foot-lock-blend`
 
-To reproduce the earlier legacy-style baseline more closely:
+To reproduce a legacy-style baseline:
 
 ```bash
 ./run_two_character_3d.sh \
@@ -247,21 +266,15 @@ To reproduce the earlier legacy-style baseline more closely:
   --visibility-mode legacy
 ```
 
-## Notes for GitHub Viewers
+## Notes
 
-- Some generated JSON files contain absolute local paths because the assets were
-  produced on a local macOS workspace.
-- The included outputs are meant to make the project easy to inspect on GitHub
-  without rerunning everything immediately.
-- If you only want to reproduce the pipeline, the source code plus
-  `environment.macos-arm64.yml` are the essential parts.
+- Some generated JSON files still contain absolute local paths from the original macOS workspace.
+- The repository includes outputs so the project can be inspected without rerunning everything immediately.
+- If you only want to reproduce the pipeline, the essential files are the source code and `environment.macos-arm64.yml`.
 
 ## Limitations
 
-- This is an MVP-oriented pipeline, not a final production mocap system.
-- The current 3D backend exports usable skeleton motion, not a full SMPL mesh
-  pipeline.
-- For heavily occluded videos, front-end identity stability is still the main
-  bottleneck.
-- Official WHAM + SMPL integration is not bundled here because of external
-  licensed assets.
+- This is an MVP pipeline, not a production mocap system.
+- The current 3D stage outputs usable skeleton motion, not a full SMPL mesh pipeline.
+- In difficult videos, identity stability under heavy occlusion is still the main bottleneck.
+- Official WHAM + SMPL integration is not included here because it depends on external licensed assets.
